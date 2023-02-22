@@ -12,8 +12,8 @@ on:
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
   contents: read
-  pages: write
-  id-token: write
+  pages: viksa7111.github.io/portfolio1/
+  id-token: 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
 
 # Allow one concurrent deployment
 concurrency:
@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ https://viksa7111.github.io/portfolio1 }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
