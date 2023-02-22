@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap'); 
+
+html,body{
+  font-family: 'Times New Roman', Times, serif;
+  scroll-behavior: smooth;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: 32px;
+  margin: 30px auto 30px auto;
+  font-size: large;
+  width: 179px;
+  height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h3{
+  width: 179px;
+  height: 15px;
+  font-family: 'Inter';
+  margin: 30px auto 30px auto;
+  padding: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+.web--intro{
+  font-style: normal;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  margin: 30px auto 30px auto;
+  width: 228px;
+  height: 16px;
+  position: relative;
+  top: -18px;
+}
+
+a{
+  font-family: "Inter";
+  text-decoration:none;
+  color: #F5F5F5;
+}
+
+a:hover{
+  text-decoration:none;
+  color: #dad8d8;
+}
+
+button.email{
+  width: 115px;
+  height: 34px;
+  cursor: pointer;
+  font-family: 'Inter';
+  padding: 9px 13px 9px 11px;
+  position: relative;
+  left: 150px;
+  top: -28px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  /* border: 1px solid #D1D5DB; */
+ border: none;
+ border-radius: 6px;
+}
+.email:hover{
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.923);
+}
+
+.email1{
+  width: 16px;
+  height: 16px;
+  float: left;
+  position: relative;
+    right: -10px;
+}
+
+
+button.linkedin{
+  font-family: 'Inter';
+  color: white;
+  background: #5093E2;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 115px;
+  height: 35px;
+  border-radius: 6px;
+  float: right;
+  position: relative;
+  top: -28px;
+  right: 150px;;
+    border: none;
+}
+.linkedin{
+  background: #FFFFFF;
+}  
+  .linkedin:hover{
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.923);
+}
+
+h2.abt{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  width: 242.71px;
+  height: 21px;
+  margin: auto;
+  color: #F5F5F5;
+  position: relative;
+}
+p.abt1{
+  width: 247px;
+  height: 61px;
+  margin: auto;
+  font-family: 'Inter';
+  font-style:normal;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+h2.int{
+  width: 242.71px;
+  height: 21px;
+  margin: auto;
+  padding-top: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+p.int1{
+  width: 247px;
+  height: 61px;
+  margin: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+
+}
+
+
+footer{
+  margin: auto;
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.a{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 20px;
+  left: 73px;
+}
+.a:hover{
+  box-shadow: 0px 0px 10px #5093E2;
+}
+.b{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 20px;
+  left: 122px;
+}
+.b:hover{
+  box-shadow: 0px 0px 15px #a40585;
+}
+.c{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 20px;
+  left: 171px;
+}
+.c:hover{
+  box-shadow: 0px 0px 10px #001eff;
+}
+.dp:hover{
+  box-shadow: 0px 0px 10px #161619;;
+}
